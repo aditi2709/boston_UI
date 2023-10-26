@@ -1,0 +1,261 @@
+body {
+  background: #f9fafb;
+  overflow: hidden;
+}
+
+.navbar {
+  color: #fff;
+  /* background: #05356f !important; */
+  border-radius: 0;
+  border: none;
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar {
+  height: 80px;
+}
+.nav-text{
+  color: #003C71;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.456px;
+  }
+
+.navbar .navbar-brand {
+  color: #efe5ff;
+  padding-left: 0;
+  font-size: 24px;
+}
+.navbar .navbar-brand i {
+  font-size: 25px;
+  margin-right: 5px;
+}
+.nav-logo {
+  width: 61.6px;
+  height: 32px;
+  object-fit: contain;
+}
+.applied-logo {
+  width: 32px;
+  height: 30px;
+  margin: 5px 0 0 0;
+  object-fit: contain;
+}
+
+.nav-wrapper::before {
+    padding-left: .5rem;
+    padding-right: 0.25rem;
+    color: #003C71;
+    content: "|";
+    font-weight: 400;
+}
+.btn-dark-blue{
+  /* border-radius: 10px; */
+  background: #003C71;
+  color: #fff;
+ 
+  padding: 10px 20px;
+}
+.btn-outline-dark-blue{
+  border-color:  #003C71;
+  background: #fff;
+  color: #003C71;
+  padding: 1px 10px;
+}
+.fs-6{
+  font-size: 0.75rem;
+}
+
+
+.div-container {
+  margin-top: 80px;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #f9fafb;
+}
+.banner-wrapper{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.wrap-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer {
+  /* position: relative;
+  height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+.inner {
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
+  /* position: absolute;
+  top: 40%;
+  left: 40%; */
+}
+/* .outer {
+  display: table;
+  height: 100vh;
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+} */
+.inner-text{
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+}
+.blue-text{ 
+  color:#003C71
+} 
+.btn-wrap{
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  margin: 10px;
+}
+.btn-error{
+  /* border-radius: 10px; */
+  background: #FFDADA;
+  color: #F00;
+}
+
+.styled-scrollbar {
+  overflow: auto;
+}
+.styled-scrollbar::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.styled-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+footer {
+  background-color: #003C71;
+  color: #ffffff;
+  font-size: 13px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bg-green{
+  background: #BAFFCD !important;
+}
+.bg-card-header{
+  background: #003C71;
+  color: #fff;
+}
+.bg-card-body{
+  background: #EAF5FF;
+  padding: unset;
+}
+
+.TFtable tr{
+  background: #EAF5FF;
+}
+/*  Define the background color for all the ODD background rows  */
+.TFtable tr:nth-child(odd){ 
+  background: #EAF5FF;
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even){
+  background: #ffffff;
+}
+.bg-light-blue{
+  background: #EAF5FF;
+}
+.status-wrapper{
+  height: 82%;
+}
+.status-container{
+  padding: 35px 20px;
+  margin: 80px 20px;
+  border-radius: 20px;
+  background: #BAFFCD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00AD30;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 34px;
+  font-weight: 600;
+
+}
+.scan-container{
+  display: flex;
+    /* width: 387px; */
+  padding: 26px 39px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #C5C5C5;
+  color: #FFF;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px;
+  
+}
+.work-btn{
+  display: flex;
+  /* width: 405px; */
+  /* height: 25%; */
+  padding: 20px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #003C71;
+  color: #FFF;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.sm-card{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 2px;
+  color: #003C71;
+  font-weight: 600;
+}
+.total{
+  border-radius: 10px;
+  background: #EAF5FF;
+}
+.failed{
+  border-radius: 10px;
+  background: #FFCACA;
+}
+.scanned{
+  border-radius: 10px;
+  background: #FFE9CB;
+}
