@@ -162,6 +162,9 @@ footer {
 .bg-green{
   background: #BAFFCD !important;
 }
+.bg-red{
+  background: #FFCACA !important;
+}
 .bg-card-header{
   background: #003C71;
   color: #fff;
@@ -192,16 +195,22 @@ footer {
   padding: 35px 20px;
   margin: 80px 20px;
   border-radius: 20px;
-  background: #BAFFCD;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #00AD30;
   text-align: center;
   /* font-family: Inter; */
   font-size: 34px;
   font-weight: 600;
+}
 
+.passed-status{
+  background: #BAFFCD;
+  color: #00AD30;
+}
+.failed-status{
+  background: #FFCACA;
+  color: #FF0000;
 }
 .scan-container{
   display: flex;
@@ -218,7 +227,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   border-radius: 10px;
-  
+  margin-bottom: 20px;
 }
 .work-btn{
   display: flex;
@@ -255,7 +264,14 @@ footer {
   border-radius: 10px;
   background: #FFCACA;
 }
+.passed{
+  border-radius: 10px;
+  background: #BAFFCD;
+}
 .scanned{
   border-radius: 10px;
   background: #FFE9CB;
+}
+.scan-img{
+  width: 100%;
 }
